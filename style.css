@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+header{
+    background-color:#0047ab ;
+    color:#ffffff;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+nav {
+  margin-top: 10px;
+}
+nav a{
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+section{
+    background-color: #D3D3D3 ;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+#about img {
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 30px ;
+  margin-bottom: 30px;
+}
+#skills {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+table{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 60%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    border: 1px solid #0047ab;
+}
+th{
+    background-color: #0047ab;
+    color: #ffffff;
+}
+#projects{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.box1{
+    width: 800px;
+    height: 130px;
+    background-color: #ffffff;
+    margin: 30px auto;
+    border-radius: 9px; 
+}
+.navbar a{
+    color: #000000;
+}
+.box2{
+    width: 800px;
+    height: 130px;
+    background-color: #ffffff;
+    margin: 25px auto;
+    border-radius: 9px;
+}
+#contact{
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+form input, form textarea{
+     width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+}
+button {
+  background-color: #0047ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.back-top {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #0047ab;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-left: 1200px;
+}
+footer {
+  background-color: #0047ab;
+  padding: 10px;
+}
+#thanks {
+  font-size: xx-large;
+}
